@@ -73,5 +73,9 @@ namespace CRUD_PROJECT_GUI
             }
 
         }
+        private void Example()
+        {
+
+        }
     }
     }
