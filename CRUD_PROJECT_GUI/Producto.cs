@@ -8,6 +8,8 @@ namespace CRUD_PROJECT_GUI
 {
     public class Producto : ProductoBase, IDescontable
     {
+
+        public Categoria Categoria { get; set; }
         // Implementación del método abstracto CalcularValorTotal
         public override decimal CalcularValorTotal()
         {

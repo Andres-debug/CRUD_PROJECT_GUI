@@ -43,6 +43,7 @@ namespace CRUD_PROJECT_GUI
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(200, 20);
             this.txtNombre.TabIndex = 0;
+            this.txtNombre.TextChanged += new System.EventHandler(this.txtNombre_TextChanged);
             // 
             // txtPrecio
             // 
@@ -83,7 +84,7 @@ namespace CRUD_PROJECT_GUI
             this.btnAgregarProducto.TabIndex = 5;
             this.btnAgregarProducto.Text = "Agregar Producto";
             this.btnAgregarProducto.UseVisualStyleBackColor = true;
-            this.btnAgregarProducto.Click += new System.EventHandler(this.btnAgregarProducto_Click);
+            this.btnAgregarProducto.Click += new System.EventHandler(this.btnAgregarProducto2_Click);
             // 
             // btnEditarProducto
             // 
